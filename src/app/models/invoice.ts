@@ -1,8 +1,8 @@
-import { Client } from "./clients";
+import { Client } from "./client";
 import { Company } from "./company";
 import { Item } from "./item";
 
-export class Invoice{
+export class Invoice {
     id!: number;
     name!: string;
     client!: Client;

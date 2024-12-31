@@ -1,6 +1,7 @@
 import { Invoice } from "../models/invoice";
 
-export const invoceData: Invoice = {
+export const invoiceData: Invoice = {
+
     id: 1,
     name: 'Componentes de PC',
     client: {
@@ -15,26 +16,26 @@ export const invoceData: Invoice = {
     },
     company: {
         name: 'New Age',
-        fiscalNumber: 3123123
+        fiscalNumber: 3123123,
     },
     items: [
         {
             id: 1,
-            product: 'CPU Intel 9',
+            product: 'Cpu Intel i9',
             price: 599,
             quantity: 1
         },
         {
             id: 2,
             product: 'Corsair Teclado Mecanico',
-            price: 800,
-            quantity: 3
+            price: 399,
+            quantity: 2
         },
         {
             id: 3,
-            product: 'Monitor ASUS',
-            price: 1099,
-            quantity: 2
+            product: 'Monitor Asus',
+            price: 899,
+            quantity: 3
         },
     ]
 }
